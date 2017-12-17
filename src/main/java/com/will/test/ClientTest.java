@@ -21,7 +21,7 @@ public class ClientTest {
         reference.setApplication(application);
         reference.setRegistry(registry); // 多个注册中心可以用setRegistries()
         reference.setInterface(DemoService.class);
-        reference.setUrl("dubbo://192.168.99.168:20880/com.will.test.DemoService");
+        reference.setUrl("dubbo://127.0.0.1:20880/com.will.test.DemoService");
 
 // 和本地bean一样使用xxxService
         DemoService service = reference.get();
