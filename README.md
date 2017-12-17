@@ -1,2 +1,3 @@
 # spring-boot-id-generator
-a test repo
+ 
+使用最新的 dubbo 结合 Spring Boot启动的方式的demo
