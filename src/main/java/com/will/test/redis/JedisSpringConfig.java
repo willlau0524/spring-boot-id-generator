@@ -60,7 +60,7 @@ public class JedisSpringConfig {
         }
         return jedisPool;
     }
-
+//    使用集群的方式构建  可以直接用JedisCluster来操作redis
 //    @Bean(name="jedisCluster")
 //    public JedisCluster jedisCluster(){
 //        JedisPoolConfig poolConfig = new JedisPoolConfig();
